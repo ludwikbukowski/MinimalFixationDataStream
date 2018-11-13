@@ -15,10 +15,10 @@ The long term project that could base on current implementation could include:
 
 ## Requirements
 
-Windows OS
-[Tobii Eye Tracker](https://tobiigaming.com/products/) and [SDK](https://developer.tobii.com/consumer-eye-trackers/core-sdk/)
-[Visual Studio for C++](https://visualstudio.microsoft.com/vs/features/cplusplus/?rr=https%3A%2F%2Fwww.google.pl%2F)
-Chrome browser
+- Windows OS
+- [Tobii Eye Tracker](https://tobiigaming.com/products/) and [SDK](https://developer.tobii.com/consumer-eye-trackers/core-sdk/)
+- [Visual Studio for C++](https://visualstudio.microsoft.com/vs/features/cplusplus/?rr=https%3A%2F%2Fwww.google.pl%2F)
+- Chrome browser
 
 ## How to
 Due to Tobii Eye Tracker's requirements, it's supported only on Windows platform.
