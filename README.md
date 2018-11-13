@@ -1,4 +1,4 @@
-## Overview
+# Overview
 
 The general idea of this project is to integrate Tobii Eye Tracker with
 internet browser (currently, only Chrome supported). This project is simple POC and there is still room for development and improvement.
@@ -13,14 +13,14 @@ The long term project that could base on current implementation could include:
 - collect the statistics of how many times we look at advertisements in the internet. What's the best location?
 - zoom in on text we're currently looking (triggered by blinks)
 
-# Requirements
+## Requirements
 
 Windows OS
 [Tobii Eye Tracker](https://tobiigaming.com/products/) and [SDK](https://developer.tobii.com/consumer-eye-trackers/core-sdk/)
 [Visual Studio for C++](https://visualstudio.microsoft.com/vs/features/cplusplus/?rr=https%3A%2F%2Fwww.google.pl%2F)
 Chrome browser
 
-# How to
+## How to
 Due to Tobii Eye Tracker's requirements, it's supported only on Windows platform.
 1. Connect the Eye Tracker.
 2. Just create release in Visual Studio and run it. 
@@ -28,7 +28,7 @@ There should be message displaed that it successfully connected to Eye Tracker.
 3. Open the browser and (add extension)(https://support.google.com/chrome_webstore/answer/2664769?hl=en) located in `plugin` directory.
 4. Open new page and look around. HTML element you're looking at should be focused with blue border.
 
-# How it works
+## How it works
 
 Desktop application connects to Eye Tracker using their SDK. 
 Additionally, it starts Websocket server on localhost.
