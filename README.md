@@ -25,7 +25,7 @@ Due to Tobii Eye Tracker's requirements, it's supported only on Windows platform
 1. Connect the Eye Tracker.
 2. Just create release in Visual Studio and run it. 
 There should be message displaed that it successfully connected to Eye Tracker.
-3. Open the browser and (add extension)(https://support.google.com/chrome_webstore/answer/2664769?hl=en) located in `plugin` directory.
+3. Open the browser and [add extension](https://support.google.com/chrome_webstore/answer/2664769?hl=en) located in `plugin` directory.
 4. Open new page and look around. HTML element you're looking at should be focused with blue border.
 
 ## How it works
