@@ -1,10 +1,3 @@
-/*
- * This is an example that demonstrates how to connect to the EyeX Engine and subscribe to the fixation data stream.
- *
- * Copyright 2013-2014 Tobii Technology AB. All rights reserved.
- */
-
-
 #include <conio.h>
 #include <assert.h>
 #include "eyex/EyeX.h"
